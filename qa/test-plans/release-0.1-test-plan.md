@@ -5,7 +5,7 @@
 **Release Under Test:** 0.1  
 **Author:** Joshua Pearson  
 **Date:** 22.02.26  
-**Environment:** Local (Windows 11, Docker, PostgreSQL, Java 21)
+**Environment:** Local (Windows 11, Docker, PostgreSQL, Java 21)  
 **QA:** Joshua Pearson  
 
 ---
@@ -150,14 +150,19 @@ Tables `players`, `games`, `moves`, and `flyway_schema_history` exist.
 ### TC-05 – Schema Structure Validation
 Columns exist with correct names and data types.
 
-### TC-06 – Constraint Enforcement
-CHECK constraints and uniqueness constraints enforce integrity.
+### TC-06 – Games Constraint Enforcement
+CHECK constraint prevents same player as white and black.
 
-### TC-07 – Index Presence
+### TC-07 – Moves Constraint Enforcement
+CHECK constraints enforce valid move_number and move_color; uniqueness constraint enforced.
+
+### TC-08 – Index Verification
 Defined indexes exist to support expected query patterns.
 
-### TC-08 – Flyway History Verification
-Migration recorded with success status.
+### TC-09 – Flyway History Verification
+Migration recorded with success status.  
+
+**Note**: TC IDs in this plan are aligned with Release 0.1 test cases and execution report.  
 
 ---
 

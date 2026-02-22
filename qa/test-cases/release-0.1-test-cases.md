@@ -200,19 +200,17 @@ OR
 
 | Test Case | Status (Pass/Fail) | Notes |
 |-----------|--------------------|-------|
-| TC-01 | | |
-| TC-02 | | |
-| TC-03 | | |
-| TC-04 | | |
-| TC-05 | | |
-| TC-06 | | |
-| TC-07 | | |
-| TC-08 | | |
-| TC-09 | | |
+| TC-01     | Pass               | |
+| TC-02     | Pass               | |
+| TC-03     | Pass               | |
+| TC-04     | Pass               | |
+| TC-05     | Pass               | |
+| TC-06     | Pass               | |
+| TC-07     | Pass               | |
+| TC-08     | Pass               | |
+| TC-09     | Pass               | |
 
----
-
-**Executed By:** Joshua Pearson
+**Executed By:** Joshua Pearson  
 **Date:** 22.02.26  
 
 ---
@@ -220,4 +218,3 @@ OR
 # Notes
 
 - All failures must be logged in `/qa/defects/`.
-- Evidence (logs, screenshots, SQL outputs) stored in `/qa/evidence/`.
