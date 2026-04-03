@@ -1,4 +1,7 @@
 spring:
+  application:
+    name: chess-stats-api
+
   datasource:
     url: jdbc:postgresql://localhost:5432/chess_stats
     username: chess
@@ -7,9 +10,19 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
+    properties:
+      hibernate:
+        jdbc:
+          '[time_zone]': UTC
 
   flyway:
     enabled: true
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
 
 server:
   port: 8080
