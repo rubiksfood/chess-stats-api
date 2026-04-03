@@ -1,8 +1,8 @@
 # ♟ Chess Stats API
 
 ![Status](https://img.shields.io/badge/status-active_development-blue)
-![Release](https://img.shields.io/badge/release-v0.1-green)
-![QA](https://img.shields.io/badge/QA-validated-success)
+![Release](https://img.shields.io/badge/release-v0.2-green)
+![QA](https://img.shields.io/badge/QA-pending-yellow)
 
 Java Spring Boot + PostgreSQL REST API for chess game storage and statistics analysis.
 
